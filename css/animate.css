@@ -14,13 +14,8 @@
 	0%{transform:translateX(150%);}
 	100%{transform:translateX(0);}
 }
-.fadeInTop{animation:fadeInTop 0.7s  linear;}
-@keyframes fadeInTop{
-	0%{transform:translateY(-150%);}
-	100%{transform:translateY(0);}
-}
-.fadeInDown{animation:fadeInDown 0.7s 0.5s linear;}
-@keyframes fadeInDown{
-	0%{transform:translateY(150%);}
-	100%{transform:translateY(0);}
+.rotate{animation:rotate 0.7s 0.5s linear;}
+@keyframes rotate{
+	0%{transform:rotate(0);opacity: 0;}
+	100%{transform:rotate(360deg);opacity: 1;}
 }
