@@ -38,13 +38,13 @@
 	font-size: 50px;
 	position: absolute;
 	top: 100px;
-	left: 200px;
+	left: 50px;
 }
 .page-1 p{
 	font-size: 25px;
 	position: absolute;
 	top: 250px;
-	right:150px;
+	right:50px;
 }
 .page-2{
 	background: url(../images/pic6.jpg);
@@ -55,7 +55,7 @@
 .page-2 .center {
 	position: absolute;
 	top: 150px;
-	left: 170px;
+	left: 110px;
 }
 .center p{
 	margin-top: 20px;
@@ -69,7 +69,7 @@
 .page-3 .three{
 	position: absolute;
 	top:50px;
-	left: 150px;
+	left: 120px;
 }
 .page-3 h1{
 	text-align: center;
@@ -81,24 +81,24 @@
 	margin-top: 20px;
 }
 .page-3 img{
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	-webkit-mask-image:url(../images/06.png);
 }
 .page-3 img:nth-of-type(1){
 	position: absolute;
-	left: 80px;
+	left: 40px;
 	bottom: 70px;
 }
 .page-3 img:nth-of-type(2){
 	position: absolute;
-	right: 100px;
+	right: 50px;
 	bottom: 70px;
 }
 .page-3 .sj{
 	position: absolute;
 	left:220px;
-	bottom:300px;
+	bottom:250px;
 }
 .page-4{
 	background: url(../images/pic4.jpg);
@@ -107,8 +107,8 @@
 }
 .out{
 	position: absolute;
-	top: 70px;
-	left: 90px;
+	top: 20px;
+	left: 40px;
 }
 .page-4 h1{
 	text-align: center;
