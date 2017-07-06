@@ -1,0 +1,27 @@
+.fadeInLeft{animation:fadeInLeft 0.7s 0.5s linear ;}
+@keyframes fadeInLeft{
+	0%{transform:translateX(-150%);opacity: 0;}
+	100%{transform:translateX(0);opacity: 1;}
+}
+.rotate{animation:rotate 0.7s 0.5s linear;}
+@keyframes rotate{
+	0%{transform:rotate(0);opacity: 0;}
+	50%{transform:rotate(90deg);}
+	100%{transform:rotate(360deg);opacity: 1;}
+}
+.fadeInRight{animation:fadeInRight 0.7s 0.5s linear;}
+@keyframes fadeInRight{
+	0%{transform:translateX(150%);}
+	100%{transform:translateX(0);}
+}
+.fadeInTop{animation:fadeInUp 0.7s 0.5s linear;}
+@keyframes fadeInUp{
+	0%{transform:translateY(-150%);}
+	100%{transform:translateY(0);}
+}
+.fadeInBottom{animation:fadeInDown 0.7s 0.5s linear;}
+@keyframes fadeInDown{
+	0%{transform:translateY(150%);}
+	100%{transform:translateY(0);}
+}
+
