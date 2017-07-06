@@ -81,8 +81,8 @@
 	margin-top: 20px;
 }
 .page-3 img{
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 	-webkit-mask-image:url(../images/06.png);
 }
 .page-3 img:nth-of-type(1){
